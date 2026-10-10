@@ -22,6 +22,9 @@ Durante el monitoreo en tiempo real, se detectaron múltiples intentos fallidos 
 ## 🛠️ Acciones de Mitigación y Respuesta (PowerShell)
 Como medida de contención inmediata para neutralizar el vector de ataque y prevenir un compromiso mayor, se procedió a deshabilitar la cuenta objetivo:
 
+powershell
+# Desactivación preventiva de la cuenta atacada
+Disable-LocalUser -Name "UsuarioPruebaSOC"
 ---
 
 ## 📊 Verificación de Remedición
